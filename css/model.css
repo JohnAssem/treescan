@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'changa', 'montserrat', 'lora';
+}
+
+body {
+    background-color: #eee;
+}
+
+header {
+    background-color: #429562;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 70px;
+    position: fixed;
+    width: 100%;
+}
+
+header div {
+    width: calc(100% / 3);
+}
+
+header img {
+    width: 70px;
+}
+
+header .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+header .title h1 {
+    margin-left: -25%;
+}
+
+header .links {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px;
+}
+
+section .state {
+    border: 1px solid #429562;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #429562;
+    width: 60%;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+section .state .data {
+    width: 50%;
+    font-size: 24px;
+    font-weight: 700;
+    color: #429562;
+}
+
+section .state .data div {
+    padding: 10px;
+}
+
+section .state .data .good-state {
+    color: #0f0;
+}
+
+section .state .data .bad-state {
+    color: #f00;
+}
+
+section .state .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+section .state .top .upload, section .state .top .webcam {
+    width: 50%;
+    height: calc(100% - 40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 15px;
+    border: 1px solid #429562;
+    cursor: pointer;
+}
+
+section .state label {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .state .top div i {
+    font-size: 150px;
+    color: #429562;
+}
+
+section .state .top .webcam button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}

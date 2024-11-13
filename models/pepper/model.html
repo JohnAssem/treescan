@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../assets/img/logo.png" type="image/png">
+    <link rel="stylesheet" href="../../css/all.min.css">
+    <link rel="stylesheet" href="../../css/fonts.css">
+    <link rel="stylesheet" href="../../css/model.css">
+    <title>Tree Scan</title>
+</head>
+<body>
+    <header>
+        <div><img src="../../assets/img/logo.png" alt="Logo"></div>
+        <div class="title"><h1>Pepper</h1></div>
+        <div class="links">
+            <a href="../../index.html">Home</a>
+            <a href="../../pages/contact.html">Contact</a>
+            <a href="../../pages/about.html">About</a>
+        </div>
+    </header>
+
+    <section id="Cards">
+        <div class="state">
+            <div class="top">
+                <div class="upload">
+                    <label for="image-upload" style="cursor: pointer;"><i class="fa-solid fa-upload icon"></i></label>
+                    <input type="file" id="image-upload" accept="image/*" onchange="initUpload(this.parentElement.parentElement)" style="display: none;">
+                </div>
+                <div class="webcam">
+                    <button type="button" onclick="initWebcam(this.parentElement.parentElement)"><i class="fa-solid fa-camera icon"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script src="../../js/script.js"></script>
+    <script src="../../js/model.js"></script>
+</body>
+</html>

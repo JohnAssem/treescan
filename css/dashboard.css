@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: changa , montserrat , lora;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #273830;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section:nth-child(1){
+    color: #fff;
+    padding: 25px;
+}
+section:nth-child(1) h1{
+    font-size: 30px;
+}
+section:nth-child(1) h1::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 70px;
+    background-color: #429562;
+    margin: 20px 0;
+}
+section:nth-child(1) .card p{
+    font-size: 10px;
+    font-weight: bold;
+    color: #429562;
+    font-family: lora;
+    padding-left: 10px;
+}
+section:nth-child(1) .card div{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+section:nth-child(1) .card div .icon{
+    background-color: #429562;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.water-mark{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    opacity: 50%;
+    z-index: 2;
+}
+.tree{
+    width: 85em;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50% , 0);
+}
+section:nth-child(2){
+    background-color: #E0DAC3;
+    padding: 20px;
+    border-radius: 60px 0 0 60px;
+    border: 1px solid #707070;
+}
+section:nth-child(2) .logo-container{
+    display: flex;
+    align-items: center;
+}
+section:nth-child(2) .logo-container h3{
+    font-size: 13px;
+    font-weight: 600;
+    color: #3A5A42;
+    padding-left: 5px;
+}
+section:nth-child(2) .logo-container img{
+    width: 20px;
+}
+section:nth-child(2) .text h2{
+    font-size: 13px;
+    color: #425A38;
+    padding-left: 10px;
+}
+section:nth-child(2) .text p{
+    font-size: 10px;
+    font-weight: bold;
+    color: #429562;
+}
+section:nth-child(2) .plants .row{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+section:nth-child(2) .row a img{
+    width: 75px;
+    border: 1px solid #707070;
+    border-radius: 50%;
+    transition: 0.5s ease;
+}
+section:nth-child(2) .row a img:hover{
+    transform: scale(1.1);
+}
+section:nth-child(2) .row a{
+    margin: 0 3px;
+    z-index: 5;
+}
+
+body #veepn-breach-alert {
+    display: none;
+}

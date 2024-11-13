@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lora-italic , lora , montserrat , changa;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url('../assets/img/hello5-bg.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 5%);
+    color: #fff;
+}
+.container h1{
+    height: 15%;
+    font-size: 65px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.container .sup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    width: 100%;
+}
+section:nth-child(1){
+    width: 25%;
+    height: 80%;
+    border-right: 5px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section:nth-child(1) img{
+    width: 150px;
+    border-radius: 50%;
+}
+section:nth-child(2){
+    width: 75%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    padding-left: 5%;
+}
+section:nth-child(2) h2{
+    color: #A4B792;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
